@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+/* Content */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    margin-top: 8rem;
+}
+h4 {
+    font-size: 10rem;
+}
+input[type="button"] {
+    position: absolute;
+    width: 20rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: gray;
+    font-size: 3rem;
+    top: 35%;
+    transform: translateY(-50%);
+}
+input[type="button"]:hover {
+    cursor: pointer;
+}
+#si {
+    left: 30%;
+}
+#no {
+    left: 55%;
+}
