@@ -50,6 +50,16 @@ cursor: pointer;
     background-color: rgba(255, 97, 123, 0.726);
 }
 
+.swal-overlay {
+    background-color: rgba(238, 24, 59, 0.726);
+}
+.swal-title {
+    color: black;
+}
+.swal-button {
+    background-color: rgb(18, 149, 255);
+}
+
 @media (min-width: 630px) {
 	h4 {
 		font-size: 6rem;

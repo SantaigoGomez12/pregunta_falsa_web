@@ -1,6 +1,11 @@
 let si = document.getElementById('si');
 si.addEventListener("click", function(e){
-    alert("🎉🎉 Gracias sabia que aceptarias")
+
+    swal({
+        title: "🎉🎉 Gracias, sabía que aceptarías",
+        icon: "success"
+    })
+
 } );
 
 let no = document.getElementById('no');
