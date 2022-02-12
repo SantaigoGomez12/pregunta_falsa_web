@@ -21,7 +21,7 @@ particlesJS(
         "nb_sides": 5
       },
       "image": {
-        "src": "../img/corazon.png",
+        "src": "https://cdn.icon-icons.com/icons2/1751/PNG/512/4096575-heart-like-love_113760.png",
         "width": 100,
         "height": 100
       }
