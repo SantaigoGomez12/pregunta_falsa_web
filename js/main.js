@@ -1,10 +1,10 @@
 particlesJS(
-    {
+  {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 128,
       "density": {
-        "enable": false,
+        "enable": true,
         "value_area": 800
       }
     },
@@ -21,13 +21,13 @@ particlesJS(
         "nb_sides": 5
       },
       "image": {
-        "src": "./img/corazon.png",
+        "src": "../img/corazon.png",
         "width": 100,
         "height": 100
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.19728691040806817,
       "random": false,
       "anim": {
         "enable": false,
@@ -37,7 +37,7 @@ particlesJS(
       }
     },
     "size": {
-      "value": 20,
+      "value": 19.728691040806815,
       "random": true,
       "anim": {
         "enable": false,
@@ -55,10 +55,10 @@ particlesJS(
     },
     "move": {
       "enable": true,
-      "speed": 14,
-      "direction": "left",
-      "random": false,
-      "straight": true,
+      "speed": 6,
+      "direction": "none",
+      "random": true,
+      "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
@@ -73,26 +73,26 @@ particlesJS(
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "push"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 200,
+        "distance": 400,
         "line_linked": {
           "opacity": 1
         }
       },
       "bubble": {
-        "distance": 227.77222777222775,
-        "size": 39.96003996003996,
-        "duration": 1.038961038961039,
-        "opacity": 0.16783216783216784,
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
